@@ -1,0 +1,64 @@
+/* formulario*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "alata", sans-serif;
+    background-color: #ffffff;
+    color: rgb(255, 254, 254);
+    font-size: 20px;
+}
+
+.fondo {
+    text-align: center;
+    width: 550px;
+    margin-left: 28%;
+}
+
+.dentro {
+    
+    width: 300px;
+    background-color: #535353;
+    padding: 18px;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 7px 13px 37px rgb(53, 53, 53);
+    text-align: center;
+    width: 100%;
+    background: #535353;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #535353;
+    font-family: "calibri";
+    font-size: 18px;
+    color: white;
+}
+
+.regi {
+    width: 100%;
+    background: #535353;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 3px solid #535353;
+    font-family: "calibri";
+    font-size: 18px;
+    color: rgb(53, 53, 53);
+} 
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #535353;
+    color: rgb(27, 25, 25);
+    font-size: 15px;
+    border: 2px solid rgb(255, 255, 255);
+    margin-top: 10px;
+    
+}

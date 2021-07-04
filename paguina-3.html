@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+    <link rel="stylesheet" href="Style-formulario.css">
+    <link rel="shortcut icon" href="LOGO/imagen.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <form class="fondo">
+        <fieldset class="dentro">
+            <lebel>DATOS DE FORMULARIO DE VENTAS</lebel>
+            <br>
+            <label for="nombre_usuario">USUARIO:</label>
+            <br>
+            <input type="text" name="nombre" id="nombre" placeholder="ingrese su nombre">
+            <input type="text" name="apellido" id="apellido" placeholder="ingrese su apellido">
+            <br><br>
+            <label for="nombre_departamento">DEPARTAMENTO Y CAPITAL:</label>
+
+            <br>
+            <select name="departamento" id="departamento">
+                <option value="Ahuachapán">Ahuachapán</option>
+                <option value="Cabañas">Cabañas</option>
+                <option value="Chalatenango">Chalatenango</option>
+                <option value="San Salvador">San Salvador</option>
+                <option value="Cuscatlán">Cuscatlán</option>
+                <option value="La Libertad">La Libertad</option>
+                <option value="La Paz">La Paz</option>
+                <option value="La Unión">La Unión</option>
+                <option value="Morazán">Morazán</option>
+                <option value="San Miguel">San Miguel</option>
+                <option value="San Vicente">San Vicente</option>
+                <option value="Santa Ana">Santa Ana</option>
+                <option value="Sonsonate">Sonsonate</option>
+                <option value="Usulután">Usulután</option>
+            </select>
+            <select name="capital" id="capital">
+                <option value="Ahuachapán">Ahuachapán</option>
+                <option value="Sensuntepeque">Sensuntepeque</option>
+                <option value="Chalatenango">Chalatenango</option>
+                <option value="San Salvador">San Salvador</option>
+                <option value="Cojutepeque">Cojutepeque</option>
+                <option value="Santa Tecla">Santa Tecla</option>
+                <option value="Zacatecoluca">Zacatecoluca</option>
+                <option value="La Unión">La Unión</option>
+                <option value="San Francisco Gotera">San Francisco Gotera</option>
+                <option value="San Miguel">San Miguel</option>
+                <option value="San Vicente">San Vicente</option>
+                <option value="Santa Ana">Santa Ana</option>
+                <option value="Sonsonate">Sonsonate</option>
+                <option value="Usulután">Usulután</option>
+            </select>
+            <br><br>
+            <label for="nombre_departamento">PRODUCTOS:</label>
+            <br>
+            <select name="productos" id="productos">
+                <option value="Pajillas">Pajillas</option>
+                <option value="Vasos">Vasos</option>
+                <option value="Platos">Platos</option>
+                <option value="Cubiertos">Cubiertos</option>
+                <option value="Bandejas">Bandejas</option>
+                <option value="Platos decorativos">Platos decorativos</option>
+                <option value="Vasos termicos">Vasos termicos</option>
+            </select>
+            <br><br>
+            <label for="descripcion_indicada">DESCRIPCION:</label>
+            <br>
+            <textarea name="incidencia" id="incidencia" placeholder="describa su insidencia" cols="40" rows="3" placeholder="ingrese su contraseña"></textarea>
+            <br><br>
+            <label for="direccion">DIRECCION:</label>
+            <br>
+            <input type="text" name="direccion" id="direccion" placeholder="ingrese su direccion">
+            <br><br>
+            <label for="nombre_usuario">CORREO:</label>
+            <br>
+            <input type="email" name="correo" id="correo" placeholder="ingrese su correo">
+            <br><br>
+            <label for="clave_usuario">CONTRASEÑA:</label>
+            <br>
+            <input type="password" name="clave" id="clave" placeholder="ingrese su contraseña">
+        </fieldset>
+
+        <fieldset class="regi ">
+            <input class="btn" type="button" onclick="alerta ()" value="ENVIAR">
+             <button class="btn" type="reset" onclick="limpiar ()">RESET </button>
+             <a href="index.html" class="btn ">PAGINA PRINCIPAL<i class="fas fa-chevronright "></i></a>
+        </fieldset>
+        
+        
+        
+    </form>
+</body>
+</html>
